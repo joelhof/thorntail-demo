@@ -17,9 +17,4 @@ public class HelloResource {
         return greetingsService.getHello();
     }
 
-    @GET
-    @Produces("application/json")
-    public String helloJson() {
-        return "{ \"greeting\": \"Hello!\" }";
-    }
 }
